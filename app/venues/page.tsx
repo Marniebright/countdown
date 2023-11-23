@@ -16,19 +16,19 @@ const socials = [
 		icon: <MapPin size={20} />,
 		href: "mailto:dev@chronark.com",
 		label: "Reception",
-		handle: "Club One",
-		link: ""
+		handle: "ClubONE The Grand Stage",
+		link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.754514909546!2d114.14781657529223!3d22.287287079696053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404007dd3c5db4b%3A0xfeef83b1244552c1!2sClubONE%20The%20Grand%20Stage!5e0!3m2!1sen!2shk!4v1700747795478!5m2!1sen!2shk"
 	}
 ];
 
-export default function Vanues() {
+export default function Venues() {
 	return (
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
 					{socials.map((s) => (
-						<Card>
+						<Card key={s.label}>
 							<Link
 								href={s.href}
 								target="_blank"

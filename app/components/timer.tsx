@@ -20,7 +20,7 @@ export const Timer = ({ deadline = new Date().toString() }) => {
 
     return (
         <div className="flex items-center justify-center">
-            <div className="grid grid-cols-1 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-2">
+            <div className="grid grid-cols-1 gap-2 mx-auto mt-32 sm:mt-0 sm:grid-cols-3">
             {Object.entries({
                 Days: time / DAY,
                 Hours: (time / HOUR) % 24,

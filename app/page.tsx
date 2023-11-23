@@ -16,7 +16,7 @@ const bride = "Jinky"
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-green via-zinc-600/20 to-white">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
@@ -45,12 +45,12 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-8 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
+        <h2 className="text-sm text-zinc-500">
           <span> {date} </span>
         </h2>
       </div>
       <div className="text-center animate-fade-in">
-        <h3 className="text-sm text-zinc-500 ">
+        <h3 className="text-sm text-zinc-500">
           <Timer deadline="Jan 17, 2024 10:00:00"/>
         </h3>
       </div>
