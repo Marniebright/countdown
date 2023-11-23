@@ -14,7 +14,7 @@ const socials = [
 	},
 	{
 		icon: <MapPin size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "https://maps.app.goo.gl/wEkVFp245EzRXUki7",
 		label: "Reception",
 		handle: "ClubONE The Grand Stage",
 		link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.754514909546!2d114.14781657529223!3d22.287287079696053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404007dd3c5db4b%3A0xfeef83b1244552c1!2sClubONE%20The%20Grand%20Stage!5e0!3m2!1sen!2shk!4v1700747795478!5m2!1sen!2shk"
