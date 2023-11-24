@@ -23,10 +23,10 @@ const socials = [
 
 export default function Venues() {
 	return (
-		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+		<div>
 			<Navigation />
-			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
-				<div className="grid grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
+			<div className="container flex items-center justify-center px-4 mx-auto mt-20 mb-10">
+				<div className="grid grid-cols-1 gap-8 mx-auto sm:mt-0 gap-8 sm:grid-cols-2 lg:gap-16">
 					{socials.map((s) => (
 						<Card key={s.label}>
 							<Link
