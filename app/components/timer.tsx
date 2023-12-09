@@ -22,9 +22,9 @@ export const Timer = ({ deadline = new Date().toString() }) => {
         <div className="flex items-center justify-center">
             <div className="flex gap-2 sm:grid-cols-3">
             {Object.entries({
-                Days: time / DAY,
-                Hours: (time / HOUR) % 24,
-                Mins: (time / MINUTE) % 60,
+                days: time / DAY,
+                hours: (time / HOUR) % 24,
+                mins: (time / MINUTE) % 60,
                 // Secs: (time / SECOND) % 60
             }).map(([label, value]) => (
                 <Card key={value}>
