@@ -27,7 +27,7 @@ const inter = Inter({
 });
 
 const calSans = LocalFont({
-  src: "../public/fonts/CalSans-SemiBold.ttf",
+  src: "../public/fonts/GreatVibes-Regular.ttf",
   variable: "--font-calsans",
 });
 

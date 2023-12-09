@@ -20,15 +20,15 @@ export const Timer = ({ deadline = new Date().toString() }) => {
 
     return (
         <div className="flex items-center justify-center">
-            <div className="grid gap-2 sm:grid-cols-3">
+            <div className="flex gap-2 sm:grid-cols-3">
             {Object.entries({
                 Days: time / DAY,
                 Hours: (time / HOUR) % 24,
                 Mins: (time / MINUTE) % 60,
-                // Seconds: (time / SECOND) % 60
+                // Secs: (time / SECOND) % 60
             }).map(([label, value]) => (
                 <Card key={value}>
-                  <div className="p-2">
+                  <div className="p-2 sm:text-1xl md:text-2xl">
                     <p>{`${Math.floor(value)}`.padStart(2, "0")}</p>
                     <span>{label}</span>
                   </div>
